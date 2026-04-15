@@ -1,0 +1,263 @@
+/* section personagens */
+
+.esquadrao13 {
+    width: 100%;
+    background: var(--personagens-bg);
+}
+
+.containerEsquadraoTitulo {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 2rem 0;
+    font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+
+    color: var(--text-main);
+}
+
+.containerEsquadraoTitulo h2 {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    color: rgb(212, 113, 130);
+}
+
+.subTituloEQ {
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.emocaoParasitas {
+    opacity: 0.65;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    padding: 0.2rem 0;
+    border-right: 1px #cccccc4f solid;
+}
+
+.containerPersonagem {
+    position: relative;
+}
+
+.listaPersonagem {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+    background-color: var(--personagensB1-bg);
+    border-radius: 12px;
+}
+
+
+/* personagens  HOVER */
+
+.personagem {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    max-height: 650px;
+
+    overflow: hidden;
+
+}
+
+.oppp {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.personagem img {
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.personagem img:hover {
+    filter: drop-shadow(1px 3px 6px rgba(214, 214, 214, 0.342));
+}
+
+@media (max-width: 1024px) {
+    .personaHidden {
+        display: none;
+    }
+
+    .personagem {
+        height: 650px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .personagem {
+        height: clamp(300px, 50vh, 500px);
+    }
+
+    .personagem img {
+        height: clamp(300px, 50vh, 500px);
+    }
+
+}
+
+/* @media (max-width: 768px) {} */
+
+
+.spanALLpersona {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+
+    transform: rotate(90deg);
+    transform-origin: right;
+
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    text-align: center;
+    padding: 0.5rem;
+
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: opacity 0.5s ease;
+
+    text-transform: uppercase;
+
+    opacity: 1;
+
+}
+
+
+.spanALLpersona.personaActive {
+    opacity: 0 !important;
+    user-select: none !important;
+}
+
+
+.btnPersonaa {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 2rem;
+
+    padding: 0 2rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    pointer-events: none;
+}
+
+.btnPersonaa button {
+    color: rgba(255, 255, 255, 0.486);
+    border: none;
+
+    background-color: transparent;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    cursor: pointer;
+    transition: 0.5s color ease;
+    pointer-events: all;
+}
+
+.btnPersonaa button:hover {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .btnPersonaa {
+        display: none;
+    }
+}
+
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.5rem 0;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    border: 2px solid white;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.dot.ativa {
+    background: white;
+}
+
+
+@media (min-width: 1024px) {
+    .btnPersonaa {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+}
+
+
+/* hidden */
+
+.hudBio {
+    position: relative;
+    width: 0;
+    height: 100%;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    line-height: 1.4rem;
+    margin: auto 0;
+
+    gap: 2rem;
+    opacity: 0;
+    overflow: hidden;
+
+    list-style: inside;
+    padding-right: 0.3rem;
+    font-size: 0.85rem;
+
+    transform: translateX(100%);
+
+    transition: 0.5s ease;
+}
+
+.hudBio:hover .fecharEsquad {
+    color: #000000;
+    background-color: rgb(201, 198, 198);
+    box-shadow: none;
+}
+
+.personagem.activeEsquad .hudBio {
+    width: 350px;
+    transform: translateX(0);
+    opacity: 1;
+}

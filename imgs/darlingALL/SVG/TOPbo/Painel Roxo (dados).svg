@@ -1,0 +1,19 @@
+<svg width="100%" height="240" viewBox="0 0 1600 240" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="100%" height="100%" fill="black"></rect>
+
+<text x="100" y="60" fill="#b366ff" font-size="16" font-family="monospace">
+010101010101010101010
+</text>
+
+<text x="100" y="90" fill="#b366ff" font-size="16" font-family="monospace">
+DATA STREAM ACTIVE
+</text>
+
+<text x="100" y="120" fill="#b366ff" font-size="16" font-family="monospace">
+SIGNAL CHANNEL OPEN
+</text>
+
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#b366ff"></line>
+
+</svg>

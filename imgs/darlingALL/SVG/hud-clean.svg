@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800">
+
+<!-- fundo -->
+<rect width="100%" height="100%" fill="#0D0D0D"></rect>
+
+<!-- GRID HORIZONTAL -->
+<g stroke="#161616" stroke-width="1">
+<line x1="0" y1="120" x2="1920" y2="120"></line>
+<line x1="0" y1="240" x2="1920" y2="240"></line>
+<line x1="0" y1="360" x2="1920" y2="360"></line>
+<line x1="0" y1="480" x2="1920" y2="480"></line>
+<line x1="0" y1="600" x2="1920" y2="600"></line>
+<line x1="0" y1="720" x2="1920" y2="720"></line>
+</g>
+
+<!-- GRID VERTICAL -->
+<g stroke="#161616" stroke-width="1">
+<line x1="240" y1="0" x2="240" y2="800"></line>
+<line x1="480" y1="0" x2="480" y2="800"></line>
+<line x1="720" y1="0" x2="720" y2="800"></line>
+<line x1="960" y1="0" x2="960" y2="800"></line>
+<line x1="1200" y1="0" x2="1200" y2="800"></line>
+<line x1="1440" y1="0" x2="1440" y2="800"></line>
+<line x1="1680" y1="0" x2="1680" y2="800"></line>
+</g>
+
+<!-- LINHAS PRINCIPAIS -->
+<line x1="0" y1="400" x2="1920" y2="400" stroke="#00BFFF" stroke-width="2" opacity="0.25"></line>
+
+<line x1="960" y1="0" x2="960" y2="800" stroke="#FF2A2A" stroke-width="2" opacity="0.25"></line>
+
+<!-- CIRCULO ESQUERDA -->
+<circle cx="220" cy="620" r="80" stroke="#00BFFF" stroke-width="2" fill="none" opacity="0.25"></circle>
+
+<!-- CIRCULO DIREITA -->
+<circle cx="1700" cy="180" r="80" stroke="#FF2A2A" stroke-width="2" fill="none" opacity="0.25"></circle>
+
+<!-- LINHAS DIAGONAIS -->
+<line x1="0" y1="760" x2="400" y2="620" stroke="#00BFFF" stroke-width="1" opacity="0.2"></line>
+
+<line x1="1520" y1="160" x2="1920" y2="0" stroke="#FF2A2A" stroke-width="1" opacity="0.2"></line>
+
+<!-- PONTOS -->
+<circle cx="480" cy="240" r="2" fill="#00BFFF" opacity="0.4"></circle>
+<circle cx="1440" cy="360" r="2" fill="#FF2A2A" opacity="0.4"></circle>
+
+<!-- CANTOS HUD -->
+<g stroke-width="3" fill="none">
+
+<path d="M0 120 L0 0 L120 0" stroke="#FF2A2A"></path>
+
+<path d="M1800 0 L1920 0 L1920 120" stroke="#00BFFF"></path>
+
+<path d="M0 680 L0 800 L120 800" stroke="#00BFFF"></path>
+
+<path d="M1800 800 L1920 800 L1920 680" stroke="#FF2A2A"></path>
+
+</g>
+
+</svg>

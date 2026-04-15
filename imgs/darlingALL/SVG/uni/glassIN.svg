@@ -1,0 +1,13 @@
+<svg viewBox="0 0 1440 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- base -->
+  <rect width="1440" height="220" fill="#0D0D0D"></rect>
+
+  <!-- placas invertidas (vindo de baixo pra cima) -->
+  <polygon points="0,80 300,140 500,0 0,0" fill="#0066FF" opacity="0.1"></polygon>
+
+  <polygon points="500,0 900,150 1100,0" fill="#ffffff" opacity="0.05"></polygon>
+
+  <polygon points="900,150 1440,100 1440,0" fill="#E10600" opacity="0.1"></polygon>
+
+</svg>

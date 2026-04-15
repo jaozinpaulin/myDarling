@@ -1,0 +1,15 @@
+<svg width="100%" height="220" viewBox="0 0 1600 220" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="100%" height="100%" fill="black"></rect>
+
+<line x1="0" y1="110" x2="1600" y2="110" stroke="#FFD500" stroke-width="2"></line>
+
+<text x="720" y="80" fill="#FFD500" font-size="20" font-family="monospace">
+SYSTEM ALERT
+</text>
+
+<text x="700" y="150" fill="#FFD500" font-size="16" font-family="monospace">
+UNKNOWN SIGNAL
+</text>
+
+</svg>

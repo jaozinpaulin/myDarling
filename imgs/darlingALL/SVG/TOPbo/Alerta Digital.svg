@@ -1,0 +1,19 @@
+<svg width="100%" height="220" viewBox="0 0 1600 220" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="100%" height="100%" fill="black"></rect>
+
+<text x="200" y="80" fill="#FFD500" font-size="16" font-family="monospace">
+WARNING WARNING WARNING
+</text>
+
+<text x="200" y="110" fill="#FFD500" font-size="16" font-family="monospace">
+SIGNAL ANOMALY DETECTED
+</text>
+
+<text x="200" y="140" fill="#FFD500" font-size="16" font-family="monospace">
+SYSTEM SCAN REQUIRED
+</text>
+
+<line x1="0" y1="180" x2="1600" y2="180" stroke="#FFD500"></line>
+
+</svg>

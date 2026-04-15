@@ -1,0 +1,216 @@
+/* section universo */
+
+.universo {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background: var(--universo-bg);
+    /* azul suave */
+}
+
+
+.imgUniverso {
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.containerUniverso {
+    color: var(--text-main);
+    text-align: center;
+}
+
+.tituloUniverso {
+    color: var(--color-font);
+    text-transform: uppercase;
+}
+
+.textoUniverso {
+    width: 75%;
+    line-height: 1.8;
+    margin: 1rem 0;
+    font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+    margin: 0 auto;
+    padding: 0.8rem 0;
+}
+
+/* container sobre geral */
+
+.containerSobreUniverso {
+    width: 100%;
+}
+
+
+.house13 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.oppH {
+    width: 100%;
+    height: clamp(300px, 50vh, 500px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--universoB2-bg);
+
+    border-radius: 12px;
+    overflow: hidden;
+    opacity: 1;
+    transition: 1s ease;
+
+}
+
+.oppH.active {
+    opacity: 0.5
+}
+
+.houseEsquad {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+
+.houseEsquad:hover {
+    filter: brightness(1.05);
+}
+
+.houseInfo {
+    width: 70%;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 1px #cccccc4b solid;
+}
+
+.houseInfo h2 {
+    color: var(--bg-color-white);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.houseInfo p {
+    color: #B0B0B0;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.sectionBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    gap: 40px;
+    padding: 60px 30px;
+    border-radius: 12px;
+    background-color: var(--universoB1-bg);
+}
+
+.textBox {
+    width: 50%;
+    color: #fff;
+}
+
+.textBox h2 {
+    color: var(--color-font);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.textBox p {
+    color: #B0B0B0;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.opp {
+    width: 100%;
+    height: clamp(300px, 50vh, 500px);
+
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.opp.active {
+    opacity: 0.5
+}
+
+.worldIMG {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1024px) {
+
+    .house13 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 2rem;
+    }
+
+    .houseEsquad {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .houseInfo {
+        width: 100%;
+        padding: 2rem 0.5rem;
+    }
+
+    .houseInfo h2 {
+        font-size: clamp(1.3rem, 4vw, 2rem);
+    }
+
+    .houseInfo p {
+        font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+        margin-top: 1rem;
+    }
+
+    .sectionBlock {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 2rem;
+    }
+
+    .textBox {
+        width: 100%;
+        padding: 2rem 0.5rem;
+    }
+
+    .textBox h2 {
+        font-size: clamp(1.3rem, 4vw, 2rem);
+    }
+
+    .textBox p {
+        font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+        margin-top: 1rem;
+    }
+
+    .worldIMG {
+        width: 100%;
+        height: auto;
+    }
+
+}

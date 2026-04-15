@@ -1,0 +1,77 @@
+<svg width="100%" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+
+<!-- fundo -->
+<rect width="900" height="420" fill="black"></rect>
+
+<!-- linhas das constelações -->
+<g stroke="white" stroke-opacity="0.18" stroke-width="1">
+
+<!-- constelação triângulo -->
+<line x1="120" y1="80" x2="170" y2="50"></line>
+<line x1="170" y1="50" x2="210" y2="90"></line>
+<line x1="210" y1="90" x2="120" y2="80"></line>
+
+<!-- constelação linha quebrada -->
+<line x1="320" y1="120" x2="360" y2="150"></line>
+<line x1="360" y1="150" x2="410" y2="110"></line>
+<line x1="410" y1="110" x2="460" y2="140"></line>
+
+<!-- constelação cruz -->
+<line x1="620" y1="90" x2="660" y2="130"></line>
+<line x1="660" y1="130" x2="700" y2="90"></line>
+<line x1="660" y1="130" x2="660" y2="170"></line>
+
+<!-- constelação estrela -->
+<line x1="200" y1="300" x2="240" y2="330"></line>
+<line x1="240" y1="330" x2="280" y2="300"></line>
+<line x1="280" y1="300" x2="240" y2="270"></line>
+<line x1="240" y1="270" x2="200" y2="300"></line>
+
+<!-- constelação longa -->
+<line x1="500" y1="300" x2="540" y2="340"></line>
+<line x1="540" y1="340" x2="600" y2="310"></line>
+<line x1="600" y1="310" x2="660" y2="350"></line>
+<line x1="660" y1="350" x2="720" y2="320"></line>
+
+</g>
+
+<!-- estrelas -->
+
+<!-- principais -->
+<circle cx="120" cy="80" r="2.5" fill="white"></circle>
+<circle cx="170" cy="50" r="2" fill="#00BFFF"></circle>
+<circle cx="210" cy="90" r="2.5" fill="white"></circle>
+
+<circle cx="320" cy="120" r="2" fill="white"></circle>
+<circle cx="360" cy="150" r="2.5" fill="#00BFFF"></circle>
+<circle cx="410" cy="110" r="2" fill="white"></circle>
+<circle cx="460" cy="140" r="2.5" fill="#FF2A2A"></circle>
+
+<circle cx="620" cy="90" r="2" fill="white"></circle>
+<circle cx="660" cy="130" r="2.5" fill="#00BFFF"></circle>
+<circle cx="700" cy="90" r="2" fill="#FF2A2A"></circle>
+<circle cx="660" cy="170" r="2" fill="white"></circle>
+
+<circle cx="200" cy="300" r="2.5" fill="white"></circle>
+<circle cx="240" cy="330" r="2" fill="#00BFFF"></circle>
+<circle cx="280" cy="300" r="2.5" fill="white"></circle>
+<circle cx="240" cy="270" r="2" fill="#FF2A2A"></circle>
+
+<circle cx="500" cy="300" r="2.5" fill="white"></circle>
+<circle cx="540" cy="340" r="2" fill="#00BFFF"></circle>
+<circle cx="600" cy="310" r="2.5" fill="white"></circle>
+<circle cx="660" cy="350" r="2" fill="#FF2A2A"></circle>
+<circle cx="720" cy="320" r="2.5" fill="white"></circle>
+
+<!-- estrelas extras -->
+<circle cx="80" cy="40" r="1.5" fill="white"></circle>
+<circle cx="300" cy="50" r="1.5" fill="#00BFFF"></circle>
+<circle cx="540" cy="60" r="1.5" fill="#FF2A2A"></circle>
+<circle cx="760" cy="80" r="1.5" fill="white"></circle>
+
+<circle cx="150" cy="200" r="1.5" fill="#00BFFF"></circle>
+<circle cx="380" cy="220" r="1.5" fill="#FF2A2A"></circle>
+<circle cx="610" cy="210" r="1.5" fill="white"></circle>
+<circle cx="820" cy="200" r="1.5" fill="#00BFFF"></circle>
+
+</svg>

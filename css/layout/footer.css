@@ -1,0 +1,231 @@
+/* section footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+
+    background-image: url(/imgs/darlingALL/imgUNIVERSO/sekuraGG.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 0;
+}
+
+
+.containerSakura {
+    padding: 3rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #0d0d0d83;
+    color: #ffffff;
+}
+
+.textoSakura {
+    text-transform: uppercase;
+}
+
+.containerSakura h2,
+h3 {
+    color: pink;
+    padding: 0.5rem 0;
+}
+
+.testeABsakura {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem;
+
+    text-transform: uppercase;
+    color: pink;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+.footerGrid {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3rem;
+    gap: 3rem;
+}
+
+
+.footerNav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.footerbrand p {
+    padding: 0.5rem 0;
+}
+
+.listaLinksFOO {
+    list-style: none;
+}
+
+.liFoo:hover {
+    color: rgb(209, 138, 150);
+}
+
+.footerNav li {
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+}
+
+
+
+.footerProject p {
+    font-size: medium;
+    opacity: 0.8;
+    margin: 4px 0;
+}
+
+
+
+.footerProject .descricao {
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.footerProject .tech {
+    margin-top: 6px;
+    letter-spacing: 1px;
+}
+
+.footerProject .status {
+    margin-top: 10px;
+    font-size: 12px;
+    color: palevioletred;
+    letter-spacing: 1px;
+}
+
+
+.footerBottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.inspiracoesC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.inspirations h2 {
+    text-transform: lowercase;
+    font-size: clamp(0.6rem, 1vw, 1.1rem);
+}
+
+
+.inspirations li {
+    list-style: none;
+    font-size: clamp(0.6rem, 1vw, 0.85rem);
+
+}
+
+.socialMidias a {
+    padding: 0 0.5rem;
+    transition: 0.5s ease;
+}
+
+.footerDuo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+
+    flex-direction: row-reverse;
+}
+
+
+.socialMidias a:hover {
+    color: rgb(209, 138, 150);
+}
+
+.footer-joao {
+    color: rgb(209, 138, 150);
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+    .containerSakura h2,
+    h3 {
+        font-size: clamp(0.95rem, 2vw, 1.6rem);
+    }
+
+    .footerGrid {
+        justify-content: center;
+
+        gap: 2rem;
+        font-size: clamp(0.6rem, 2vw, 1.1rem);
+    }
+
+    .footerBottom {
+        flex-direction: column;
+
+        gap: 1rem;
+
+        font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+
+    .footerProject {
+        font-size: clamp(0.6rem, 2vw, 1.1rem);
+    }
+
+    .footerDuo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+
+
+        flex-direction: row-reverse;
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footerGrid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerNav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}

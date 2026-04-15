@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1440 220" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1440" height="220" fill="#0D0D0D"></rect>
+
+  <!-- placas -->
+  <polygon points="0,140 300,80 500,200 0,200" fill="#0066FF" opacity="0.1"></polygon>
+
+  <polygon points="500,200 900,70 1100,200" fill="#ffffff" opacity="0.05"></polygon>
+
+  <polygon points="900,70 1440,120 1440,200" fill="#E10600" opacity="0.1"></polygon>
+
+</svg>

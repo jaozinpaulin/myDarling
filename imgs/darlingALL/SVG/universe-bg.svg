@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800">
+
+<!-- fundo transparente -->
+
+<!-- linha horizontal suave -->
+<line x1="0" y1="420" x2="1920" y2="420" stroke="white" stroke-width="1" opacity="0.06"></line>
+
+<!-- arco orbital -->
+<path d="M -200 700 Q 960 -200 2120 700" stroke="#00BFFF" stroke-width="2" fill="none" opacity="0.12"></path>
+
+<!-- segundo arco mais suave -->
+<path d="M -300 760 Q 960 -100 2220 760" stroke="#FF2A2A" stroke-width="2" fill="none" opacity="0.08"></path>
+
+<!-- pontos tipo estrelas -->
+<g>
+
+<circle cx="300" cy="200" r="2" fill="#ffffff" opacity="0.2"></circle>
+<circle cx="700" cy="320" r="2" fill="#ffffff" opacity="0.2"></circle>
+<circle cx="1200" cy="260" r="2" fill="#ffffff" opacity="0.2"></circle>
+<circle cx="1500" cy="340" r="2" fill="#ffffff" opacity="0.2"></circle>
+<circle cx="1700" cy="180" r="2" fill="#ffffff" opacity="0.2"></circle>
+
+</g>
+
+</svg>

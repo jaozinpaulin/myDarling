@@ -1,0 +1,235 @@
+/* urrossauros / virm */
+
+.inimigos {
+    width: 100%;
+    background-color: var(--urro-bg);
+}
+
+.loreText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 2rem;
+
+    background-color: var(--urro-bgB1);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.apePapai {
+    background-color: var(--urro-bgB2);
+    border-radius: 12px;
+}
+
+.loreText h2 {
+    color: #E10600;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.loreText p {
+    color: #B0B0B0;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.loreImg {
+    width: 50%;
+    height: 450px;
+    position: relative;
+}
+
+.loreImg img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.3s;
+    border-radius: 12px;
+
+}
+
+.loreImg img:hover {
+    filter: brightness(1.05);
+}
+
+.urroText {
+    width: 50%;
+    padding: 1rem;
+    border-bottom: 1px #cccccc4b solid;
+
+}
+
+.urroInimigo {
+    color: #888;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.duoSection {
+    width: 100%;
+    color: #fff;
+    padding: 90px 40px;
+}
+
+
+@media (max-width: 1024px) {
+    .loreText {
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem 3rem;
+    }
+
+    .loreText:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    .loreText h2 {
+        font-size: clamp(1.3rem, 6vw, 2rem);
+    }
+
+    .loreText p {
+        font-size: clamp(0.8rem, 4vw, 1.3rem);
+    }
+
+    .loreImg {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+
+    }
+
+    .urroText {
+        width: 100%;
+    }
+
+}
+
+
+/* IMAGENS 50/50 */
+
+.duoSection {
+    width: 100%;
+    background-color: var(--urro-bgB3);
+    border-radius: 12px;
+}
+
+.duoSection h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+.duoImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    gap: 2.5rem;
+
+    padding: 3rem;
+}
+
+.duoImgs img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+.duoInfos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.infoBox {
+    width: 40%;
+    padding: 20px 0;
+    padding: 1rem;
+    border-bottom: 1px #cccccc4b solid;
+
+}
+
+
+.infoBox h3 {
+    margin-bottom: 10px;
+    color: #E10600;
+}
+
+.infoBox h5 {
+    margin-bottom: 10px;
+    color: #cabdbc;
+}
+
+
+.infoBox p {
+    color: #B0B0B0;
+    padding: 0.5rem 0;
+}
+
+.duoFinal {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.duoFinal small {
+    color: #888;
+    font-style: italic;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .duoImgs {
+        justify-content: center;
+
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .duoImgs img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .duoInfos {
+        text-align: left;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .infoBox:nth-last-of-type(1) {
+        text-align: right;
+    }
+
+    .infoBox {
+        width: 50%;
+    }
+
+    .infoBox h3 {
+        font-size: clamp(0.9rem, 3vw, 1.6rem);
+    }
+
+    .infoBox h5 {
+        font-size: clamp(0.9rem, 2vw, 1.1rem);
+    }
+
+    .infoBox p {
+        font-size: clamp(0.8rem, 2vw, 1.1rem);
+    }
+}

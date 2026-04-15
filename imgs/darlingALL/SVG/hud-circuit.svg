@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+<!-- linhas esquerda -->
+<g stroke="#00BFFF" stroke-width="3" fill="none" opacity="0.35">
+
+<line x1="200" y1="540" x2="700" y2="540"></line>
+<line x1="700" y1="540" x2="760" y2="480"></line>
+<line x1="700" y1="540" x2="760" y2="600"></line>
+
+</g>
+
+<!-- linhas direita -->
+<g stroke="#FF2A2A" stroke-width="3" fill="none" opacity="0.35">
+
+<line x1="1720" y1="540" x2="1220" y2="540"></line>
+<line x1="1220" y1="540" x2="1160" y2="480"></line>
+<line x1="1220" y1="540" x2="1160" y2="600"></line>
+
+</g>
+
+<!-- núcleo -->
+<circle cx="960" cy="540" r="80" stroke="white" stroke-width="2" fill="none" opacity="0.3"></circle>
+
+<rect x="940" y="520" width="40" height="40" stroke="white" fill="none"></rect>
+
+</svg>

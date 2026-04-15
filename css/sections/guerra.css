@@ -1,0 +1,137 @@
+/* guerra final */
+
+.warSection {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: var(--guerra-bg);
+}
+
+.spaceInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0;
+    gap: 2rem;
+
+    background-color: var(--guerra-bgB2);
+    margin-top: 1.5rem;
+    border-radius: 12px;
+}
+
+.spaceInfo h3 {
+    color: #f5778c;
+    padding: 0.5rem;
+}
+
+.spaceSub {
+    padding: 1rem;
+    border-bottom: 1px #cccccc4f solid;
+
+}
+
+.spaceSub span {
+    color: #B0B0B0;
+}
+
+.warSection h2 {
+    color: #f5778c;
+    letter-spacing: 3px;
+}
+
+.tVU {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
+    padding: 2rem;
+    margin: 1.5rem;
+    background-color: var(--guerra-bgB1);
+
+    border-radius: 12px;
+}
+
+
+.warImg {
+    width: 100%;
+    max-width: 1500px;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+.warSection p {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #B0B0B0;
+    line-height: 1.6;
+}
+
+.warSection small {
+    display: block;
+    margin-top: 20px;
+    color: #888;
+    font-style: italic;
+}
+
+.birdGbye {
+    padding: 5rem 2rem;
+}
+
+.birdGbye small {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #B0B0B0;
+
+    letter-spacing: 1px;
+    line-height: 1.3;
+
+    padding: 2rem 0;
+    border-bottom: 1px #cccccc4f solid;
+}
+
+
+.birdOF {
+    width: 100%;
+    max-width: 1300px;
+    opacity: 0.7 !important;
+}
+
+
+@media (max-width: 1024px) {
+
+    .spaceInfo {
+        padding: 3rem 0;
+        gap: 1rem;
+    }
+
+    .spaceInfo h3 {
+        font-size: clamp(0.8rem, 2vw, 1.6rem);
+    }
+
+    .spaceSub {
+        text-align: left;
+    }
+
+    .spaceSub:nth-of-type(2) {
+        text-align: right;
+    }
+
+    .warSection h2 {
+        font-size: clamp(0.8rem, 2vw, 1.6rem);
+    }
+
+    .warSection p {
+        font-size: clamp(0.7rem, 2vw, 1.1rem);
+    }
+
+    .warSection small {
+        line-height: 1.5;
+        font-size: clamp(0.7rem, 2vw, 1.1rem);
+    }
+
+    .birdGbye {
+        padding: 4rem 2rem;
+    }
+
+}

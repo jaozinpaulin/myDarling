@@ -1,0 +1,19 @@
+<svg width="100%" height="240" viewBox="0 0 1600 240" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="100%" height="100%" fill="black"></rect>
+
+<rect x="60" y="60" width="250" height="2" fill="#00bfff"></rect>
+<rect x="60" y="90" width="200" height="2" fill="#00bfff"></rect>
+<rect x="60" y="120" width="150" height="2" fill="#00bfff"></rect>
+
+<text x="420" y="90" fill="#00bfff" font-size="16" font-family="monospace">
+SYSTEM CORE ONLINE
+</text>
+
+<text x="420" y="120" fill="#00bfff" font-size="16" font-family="monospace">
+SYNC RATE 97%
+</text>
+
+<line x1="0" y1="200" x2="1600" y2="200" stroke="#00bfff"></line>
+
+</svg>

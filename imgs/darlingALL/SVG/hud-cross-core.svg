@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+<!-- linha horizontal principal -->
+<line x1="0" y1="540" x2="840" y2="540" stroke="#00BFFF" stroke-width="3" opacity="0.4"></line>
+
+<line x1="1080" y1="540" x2="1920" y2="540" stroke="#FF2A2A" stroke-width="3" opacity="0.4"></line>
+
+<!-- linha vertical principal -->
+<line x1="960" y1="0" x2="960" y2="460" stroke="white" stroke-width="2" opacity="0.3"></line>
+
+<line x1="960" y1="620" x2="960" y2="1080" stroke="white" stroke-width="2" opacity="0.3"></line>
+
+<!-- pequenos detalhes no centro -->
+<line x1="920" y1="520" x2="940" y2="520" stroke="white" stroke-width="2" opacity="0.4"></line>
+
+<line x1="980" y1="520" x2="1000" y2="520" stroke="white" stroke-width="2" opacity="0.4"></line>
+
+<line x1="920" y1="560" x2="940" y2="560" stroke="white" stroke-width="2" opacity="0.4"></line>
+
+<line x1="980" y1="560" x2="1000" y2="560" stroke="white" stroke-width="2" opacity="0.4"></line>
+
+</svg>

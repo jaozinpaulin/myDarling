@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --red-main: #E10600;
+    --red-neon: #FF2A2A;
+
+    --blue-main: #0066FF;
+    --blue-neon: #00BFFF;
+
+    --color-font: rgb(197, 44, 108);
+
+    --bg-main: #0D0D0D;
+
+    --bg-color-white: #fff;
+    --bg-color-black: black;
+
+    --text-main: #EAEAEA;
+
+
+    /* sections */
+
+
+    /* UNIVERSO (azul mais intenso) */
+    --universo-bg: rgba(30, 143, 255, 0.233);
+    --universoB1-bg: rgba(35, 68, 100, 0.2);
+    --universoB2-bg: rgba(38, 78, 117, 0.062);
+
+
+
+    /* PERSONAGENS (roxo mais forte) */
+    --personagens-bg: rgba(182, 60, 60, 0.20);
+    --personagensB1-bg: rgba(182, 60, 60, 0.040);
+
+
+    /* FRANXX (pink mais marcante) */
+    --franxx-bg: rgba(248, 76, 134, 0.2);
+    --franxx-bgB1: rgba(248, 76, 133, 0.034);
+    --franxx-bgB2: rgba(248, 76, 133, 0.032);
+    --franxx-bgB3: rgba(138, 43, 226, 0.08);
+
+
+
+    /* VIRM (verde mais vivo) */
+    --urro-bg: rgba(46, 204, 113, 0.20);
+    --urro-bgB1: rgba(46, 204, 112, 0.096);
+    --urro-bgB2: rgba(255, 200, 0, 0.08);
+
+    --urro-bgB3: rgba(0, 0, 0, 0.4);
+
+
+
+
+    /* GUERRA (laranja mais energético) */
+    --guerra-bg: rgba(255, 110, 30, 0.20);
+    --guerra-bgB1: rgba(201, 127, 99, 0.030);
+    --guerra-bgB2: rgba(255, 140, 0, 0.055);
+    --guerra-bgB3: rgba(200, 152, 20, 0.048);
+
+
+}
+
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: var(--bg-color-black);
+
+}
+
+section {
+    position: relative;
+    padding: 80px 20px;
+}
+
+section+section {
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.4);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Orbitron', sans-serif;
+}

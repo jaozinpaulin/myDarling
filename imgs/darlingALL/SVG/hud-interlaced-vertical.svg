@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+<!-- linhas de cima (Hiro - azul) -->
+<g stroke="#00BFFF" stroke-width="2.5" fill="none" opacity="0.35">
+
+<polyline points="960,0 960,200 820,340 820,460"></polyline>
+<polyline points="960,0 960,260 1100,400 1100,520"></polyline>
+
+<polyline points="720,0 720,200 860,340 960,340"></polyline>
+<polyline points="1200,0 1200,200 1060,340 960,340"></polyline>
+
+</g>
+
+<!-- linhas de baixo (Zero Two - vermelho) -->
+<g stroke="#FF2A2A" stroke-width="2.5" fill="none" opacity="0.35">
+
+<polyline points="960,1080 960,880 1100,740 1100,620"></polyline>
+<polyline points="960,1080 960,820 820,680 820,560"></polyline>
+
+<polyline points="720,1080 720,880 860,740 960,740"></polyline>
+<polyline points="1200,1080 1200,880 1060,740 960,740"></polyline>
+
+</g>
+
+<!-- linhas verticais centrais -->
+<g stroke="white" stroke-width="1.5" opacity="0.2">
+
+<line x1="900" y1="420" x2="900" y2="660"></line>
+<line x1="1020" y1="420" x2="1020" y2="660"></line>
+
+</g>
+
+<!-- núcleo central -->
+<circle cx="960" cy="540" r="120" stroke="white" stroke-width="2" fill="none" opacity="0.25"></circle>
+
+<circle cx="960" cy="540" r="60" stroke="white" stroke-width="1.5" fill="none" opacity="0.3"></circle>
+
+<!-- símbolo central -->
+<polygon points="960,500 1000,540 960,580 920,540" stroke="white" stroke-width="2" fill="none" opacity="0.35"></polygon>
+
+<!-- nós -->
+<g fill="white" opacity="0.3">
+
+<circle cx="820" cy="340" r="4"></circle>
+<circle cx="1100" cy="400" r="4"></circle>
+<circle cx="860" cy="740" r="4"></circle>
+<circle cx="1060" cy="740" r="4"></circle>
+
+</g>
+
+</svg>

@@ -1,0 +1,124 @@
+/* base */
+@import url('./base/global.css');
+
+/* layout */
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+
+/* sections */
+
+@import url('./sections/hero.css');
+@import url('./sections/universo.css');
+@import url('./sections/personagens.css');
+
+@import url('./sections/franxx_dr.css');
+@import url('./sections/urro_virm.css');
+@import url('./sections/guerra.css');
+
+
+
+
+
+
+
+.loading {
+    position: fixed;
+    inset: 0;
+    background: #0d0d0d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s ease;
+    z-index: 9999;
+}
+
+.loading.ativoLoad {
+    opacity: 0;
+    pointer-events: none;
+}
+
+span {
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.loadingBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.bar {
+    width: 250px;
+    height: 4px;
+    background: #333333c7;
+    overflow: hidden;
+    position: relative;
+}
+
+.bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -125%;
+    background: linear-gradient(to right,
+            #ffc0cb00,
+            #ffc0cb6c,
+            rgb(221, 105, 124));
+    animation: load 1.5s linear infinite;
+}
+
+@keyframes load {
+    100% {
+        left: 125%;
+    }
+}
+
+
+
+
+[data-anim] {
+    opacity: 0;
+    transition: 1.3s ease;
+}
+
+[data-anim='left'] {
+    transform: translateX(-25px);
+}
+
+[data-anim='right'] {
+    transform: translateX(25px);
+}
+
+[data-anim='top'] {
+    transform: translateY(-25px);
+}
+
+[data-anim='bottom'] {
+    transform: translateY(25px);
+}
+
+[data-anim='scale'] {
+    transform: scale(0.9);
+}
+
+[data-anim='scale'] {
+    transform: scale(0.9);
+}
+
+[data-anim].ativarAnim {
+    opacity: 1;
+    transform: translate(0);
+    transform: scale(1);
+}
+
+/* Protocolo de Sincronização Ativado por joao paulo @zero_jao7 */
+/* https://github.com/jaozinpaulin */
