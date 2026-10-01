@@ -1,51 +1,51 @@
-# 🚀 myDarling
+# myDarling
 
-myDarling is an interactive web project inspired by the universe of Darling in the Franxx.
+myDarling é um projeto web interativo inspirado no universo de Darling in the Franxx.
 
-The project was built focusing on immersive design, smooth user experience, and dynamic content. It features a futuristic HUD interface, animated sections, and a bilingual system (PT/EN) for accessibility.
+O projeto foi desenvolvido com foco em design imersivo, experiência de usuário fluida e conteúdo dinâmico. Possui uma interface em estilo HUD futurista, seções animadas e sistema bilíngue (PT/EN) para acessibilidade.
 
-This project represents my evolution in front-end development, combining HTML, CSS, and JavaScript to create a complete and interactive experience.
+Este projeto representa a evolução no desenvolvimento front-end, combinando HTML, CSS e JavaScript para criar uma experiência completa e interativa.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
-- CSS3 (modular architecture with @import)
-- JavaScript (DOM manipulation)
+- CSS3 (arquitetura modular com @import)
+- JavaScript (manipulação do DOM)
 
 ---
 
-## 🎮 Features
+## Features
 
-- 🌐 Language switch (PT-BR / EN)
-- 🎨 Futuristic UI inspired by sci-fi HUD systems
-- ⚡ Dynamic content rendering with JavaScript
-- 🎬 Scroll-based animations
-- 📱 Responsive design (mobile friendly)
-- 🧩 Modular CSS structure
+- Sistema de troca de idiomas (PT-BR / EN)
+- Interface de usuário futurista inspirada em sistemas HUD de ficção científica
+- Renderização dinâmica de conteúdo com JavaScript
+- Animações baseadas em scroll
+- Design responsivo (mobile friendly)
+- Estrutura CSS modular
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Hero](./imgs/darlingHero.png)
 ![Universo](./imgs/darlingUniverse.png)
 ![Characters](./imgs/darlingEquad.png)
 ![Franxx](./imgs/darlingFranxx.png)
 
-## 📚 What I learned
+## What I learned
 
-- How to structure a scalable front-end project
-- CSS organization using modular files
-- DOM manipulation and dynamic content rendering
-- Responsive design techniques
-- UI/UX thinking for interactive experiences
+- Como estruturar um projeto front-end escalável
+- Organização de CSS utilizando arquivos modulares
+- Manipulação do DOM e renderização dinâmica de conteúdo
+- Técnicas de design responsivo
+- Pensamento de UI/UX para experiências interativas
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-Developed by **João Paulo**
+Desenvolvido por **João Paulo**
 
 🔗 [GitHub](https://github.com/jaozinpaulin)
